@@ -20,6 +20,7 @@ class RankRequirementAdmin(admin.ModelAdmin):
     list_display = ('number', 'requirement_display',
                     'rank', 'revision', 'is_active', 'is_header')
     ordering = ("rank", "sort_order", )
+    list_filter = ('rank', 'is_active')
 
     def requirement_display(self, obj):
         if obj.is_header:

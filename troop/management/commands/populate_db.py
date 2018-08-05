@@ -565,7 +565,7 @@ class Command(BaseCommand):
         RankRequirement(sort_order=94, number='3b', revision='2016', rank=first_class,
                         short_desc='Timber & Clove Hitch',
                         description='Demonstrate tying the timber hitch and clove hitch.').save()
-        RankRequirement(sort_order=95, number='3c, revision='2016', rank=first_class,
+        RankRequirement(sort_order=95, number='3c', revision='2016', rank=first_class,
                         short_desc='Demo Lashings',
                         description='Demonstrate tying the square, shear, and diagonal lashings by joining two or more poles or staves together.').save()
         RankRequirement(sort_order=96, number='3d', revision='2016', rank=first_class,
