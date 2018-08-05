@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h2>Welcome to Troop Management! <span class="icon-emo-happy"></span></h2>
+  <p class="lead">
+    If you already have an account, go ahead and <a href="{% url 'login' %}">log in</a>. If you are new to Troop Management, get started
+    by creating a <a href="{% url 'scout_signup' %}">scout account</a> or a <a href="{% url 'parent_signup' %}">parent account</a>.
+  </p>
+{% endblock %}

@@ -1,0 +1,4 @@
+Keep people from signing up as a leader
+        https://github.com/Dunedan/django-lockdown
+
+        
