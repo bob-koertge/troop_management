@@ -532,6 +532,146 @@ class Command(BaseCommand):
                         description='Successfully complete your board of review for the Second Class rank.').save()
 
         print('Loading RankRequirement for First Class')
+        RankRequirement(sort_order=83, number='', is_header=True,
+                        header='Camping and Outdoor Ethics:', rank=first_class, revision='2016').save()
+        RankRequirement(sort_order=84, number='1a', revision='2016', rank=first_class,
+                        short_desc='10 Activities (6 nights camping)',
+                        description='Since joining Boy Scouts, participate in 10 separate troop/patrol activities, at least six of which must be held outdoors. Of the outdoor activities, at least three must include overnight camping. These activities do not include troop or patrol meetings. On campouts, spend the night in a tent that you pitch or other structure that you help erect, such as a lean-to, snow cave, or tepee.').save()
+        RankRequirement(sort_order=85, number='1b', revision='2016', rank=first_class,
+                        short_desc='Tread Lightly!',
+                        description='Explain each of the principles of Tread Lightly! and tell how you practiced them on a campout or outing. This outing must be different from the ones used for Tenderfoot requirement 1c and Second Class requirement 1b.').save()
+        RankRequirement(sort_order=86, number='', is_header=True,
+                        header='Cooking:', rank=first_class, revision='2016').save()
+        RankRequirement(sort_order=87, number='2a', revision='2016', rank=first_class,
+                        short_desc='Plan Menu',
+                        description='Help plan a menu for one of the above campouts that includes at least one breakfast, one lunch, and one dinner, and that requires cooking at least two of the meals. Tell how the menu includes the foods from MyPlate or the current USDA nutritional model and how it meets nutritional needs for the planned activity or campout.').save()
+        RankRequirement(sort_order=88, number='2b', revision='2016', rank=first_class,
+                        short_desc='Budget and Shop Menu',
+                        description=' Using the menu planned in First Class requirement 2a, make a list showing a budget and the food amounts needed to feed three or more boys. Secure the ingredients.').save()
+        RankRequirement(sort_order=89, number='2c', revision='2016', rank=first_class,
+                        short_desc='Show Gear needed to Cook Menu',
+                        description='Show which pans, utensils, and other gear will be needed to cook and serve these meals.').save()
+        RankRequirement(sort_order=90, number='2d', revision='2016', rank=first_class,
+                        short_desc='Safe food Handling',
+                        description='Demonstrate the procedures to follow in the safe handling and storage of fresh meats, dairy products, eggs, vegetables, and other perishable food products. Show how to properly dispose of camp garbage, cans, plastic containers, and other rubbish.').save()
+        RankRequirement(sort_order=91, number='2e', revision='2016', rank=first_class,
+                        short_desc='Serve as Cook',
+                        description='On one campout, serve as cook. Supervise your assistant(s) in using a stove or building a cooking fire. Prepare the breakfast, lunch, and dinner planned in First Class requirement 2a. Supervise the cleanup.').save()
+        RankRequirement(sort_order=92, number='', is_header=True,
+                        header='Tools:', rank=first_class, revision='2016').save()
+        RankRequirement(sort_order=93, number='3a', revision='2016', rank=first_class,
+                        short_desc='Lashing use',
+                        description='Discuss when you should and should not use lashings.').save()
+        RankRequirement(sort_order=94, number='3b', revision='2016', rank=first_class,
+                        short_desc='Timber & Clove Hitch',
+                        description='Demonstrate tying the timber hitch and clove hitch.').save()
+        RankRequirement(sort_order=95, number='3c, revision='2016', rank=first_class,
+                        short_desc='Demo Lashings',
+                        description='Demonstrate tying the square, shear, and diagonal lashings by joining two or more poles or staves together.').save()
+        RankRequirement(sort_order=96, number='3d', revision='2016', rank=first_class,
+                        short_desc='Useful Camp Gadget',
+                        description='Use lashings to make a useful camp gadget or structure.').save()
+        RankRequirement(sort_order=97, number='', is_header=True,
+                        header='Navigation:', rank=first_class, revision='2016').save()
+        RankRequirement(sort_order=98, number='4a', revision='2016', rank=first_class,
+                        short_desc='Map/Compass Orienteering',
+                        description='Using a map and compass, complete an orienteering course that covers at least one mile and requires measuring the height and/or width of designated items (tree, tower, canyon, ditch, etc.).').save()
+        RankRequirement(sort_order=99, number='4b', revision='2016', rank=first_class,
+                        short_desc='GPS Orienteering',
+                        description=' Demonstrate how to use a handheld GPS unit, GPS app on a smartphone, or other electronic navigation system. Use GPS to find your current location, a destination of your choice, and the route you will take to get there. Follow that route to arrive at your destination.').save()
+        RankRequirement(sort_order=100, number='', is_header=True,
+                        header='Nature:', rank=first_class, revision='2016').save()
+        RankRequirement(sort_order=101, number='5a', revision='2016', rank=first_class,
+                        short_desc='10 Native Plants',
+                        description='Identify or show evidence of at least 10 kinds of native plants found in your local area or campsite location. You may show evidence by identifying fallen leaves or fallen fruit that you find in the field, or as part of a collection you have made, or by photographs you have taken.').save()
+        RankRequirement(sort_order=102, number='5b', revision='2016', rank=first_class,
+                        short_desc='Weather Forecast',
+                        description=' Identify two ways to obtain a weather forecast for an upcoming activity. Explain why weather forecasts are important when planning for an event.').save()
+        RankRequirement(sort_order=103, number='5c', revision='2016', rank=first_class,
+                        short_desc='Hazardous Weather',
+                        description='Describe at least three natural indicators of impending hazardous weather, the potential dangerous events that might result from such weather conditions, and the appropriate actions to take.').save()
+        RankRequirement(sort_order=104, number='5d', revision='2016', rank=first_class,
+                        short_desc='Local Extreme Weather',
+                        description='Describe extreme weather conditions you might encounter in the outdoors in your local geographic area. Discuss how you would determine ahead of time the potential risk of these types of weather dangers, alternative planning considerations to avoid such risks, and how you would prepare for and respond to those weather conditions.').save()
+        RankRequirement(sort_order=105, number='', is_header=True,
+                        header='Aquatics:', rank=first_class, revision='2016').save()
+        RankRequirement(sort_order=106, number='6a', revision='2016', rank=first_class,
+                        short_desc='BSA Swim Test',
+                        description='Successfully complete the BSA swimmer test').save()
+        RankRequirement(sort_order=107, number='6b', revision='2016', rank=first_class,
+                        short_desc='Safe Trip Afloat',
+                        description='Tell what precautions must be taken for a safe trip afloat.').save()
+        RankRequirement(sort_order=108, number='6c', revision='2016', rank=first_class,
+                        short_desc='Watercraft Parts Identification',
+                        description='Identify the basic parts of a canoe, kayak, or other boat. Identify the parts of a paddle or an oar.').save()
+        RankRequirement(sort_order=109, number='6d', revision='2016', rank=first_class,
+                        short_desc='Watercraft Proper Body Positioning',
+                        description='Describe proper body positioning in a watercraft, depending on the type and size of the vessel. Explain the importance of proper body position in the boat.').save()
+        RankRequirement(sort_order=110, number='6e', revision='2016', rank=first_class,
+                        short_desc='Line Water Rescue',
+                        description='With a helper and a practice victim, show a line rescue both as tender and as rescuer. (The practice victim should be approximately 30 feet from shore in deep water.)').save()
+        RankRequirement(sort_order=111, number='', is_header=True,
+                        header='First Aid and Emergency Preparedness:', rank=first_class, revision='2016').save()
+        RankRequirement(sort_order=112, number='7a', revision='2016', rank=first_class,
+                        short_desc='Sprains/Head/Arm/Collar Bone',
+                        description='Demonstrate bandages for a sprained ankle and for injuries on the head, the upper arm, and the collarbone.').save()
+        RankRequirement(sort_order=113, number='7b', revision='2016', rank=first_class,
+                        short_desc='Transport Injured Person',
+                        description="""By yourself and with a partner, show how to:
+                            Transport a person from a smoke-filled room.
+                            Transport for at least 25 yards a person with a sprained ankle.""").save()
+        RankRequirement(sort_order=114, number='7c', revision='2016', rank=first_class,
+                        short_desc='5 Signs Heart Attack',
+                        description='Tell the five most common signals of a heart attack. Explain the steps (procedures) in cardiopulmonary resuscitation (CPR).').save()
+        RankRequirement(sort_order=115, number='7d', revision='2016', rank=first_class,
+                        short_desc='Dangers of Local Utilities',
+                        description='Tell what utility services exist in your home or meeting place. Describe potential hazards associated with these utilities and tell how to respond in emergency situations.').save()
+        RankRequirement(sort_order=116, number='7e', revision='2016', rank=first_class,
+                        short_desc='Emergency Action Plan',
+                        description='Develop an emergency action plan for your home that includes what to do in case of fire, storm, power outage, and water outage.').save()
+        RankRequirement(sort_order=117, number='7f', revision='2016', rank=first_class,
+                        short_desc='Potable Water',
+                        description='Explain how to obtain potable water in an emergency.').save()
+        RankRequirement(sort_order=118, number='', is_header=True,
+                        header='Fitness:', rank=first_class, revision='2016').save()
+        RankRequirement(sort_order=119, number='8a', revision='2016', rank=first_class,
+                        short_desc='Physically Active',
+                        description='After completing Second Class requirement 7a, be physically active at least 30 minutes each day for five days a week for four weeks. Keep track of your activities.').save()
+        RankRequirement(sort_order=120, number='8b', revision='2016', rank=first_class,
+                        short_desc='Physical Activity Goals',
+                        description='Share your challenges and successes in completing First Class requirement 8a. Set a goal for continuing to include physical activity as part of your daily life.').save()
+        RankRequirement(sort_order=121, number='', is_header=True,
+                        header='Citizenship:', rank=first_class, revision='2016').save()
+        RankRequirement(sort_order=122, number='9a', revision='2016', rank=first_class,
+                        short_desc='Obligations of US Citizen',
+                        description='Visit and discuss with a selected individual approved by your leader (for example, an elected official, judge, attorney, civil servant, principal, or teacher) the constitutional rights and obligations of a U.S. citizen.').save()
+        RankRequirement(sort_order=123, number='9b', revision='2016', rank=first_class,
+                        short_desc='Local Environmental Issue',
+                        description='Investigate an environmental issue affecting your community. Share what you learned about that issue with your patrol or troop. Tell what, if anything, could be done by you or your community to address the concern.').save()
+        RankRequirement(sort_order=124, number='9c', revision='2016', rank=first_class,
+                        short_desc='Reduce/Recycle/Reuse',
+                        description='On a Scouting or family outing, take note of the trash and garbage you produce. Before your next similar outing, decide how you can reduce, recycle, or repurpose what you take on that outing, and then put those plans into action. Compare your results.').save()
+        RankRequirement(sort_order=125, number='9d', revision='2016', rank=first_class,
+                        short_desc='3 Service Hours',
+                        description='Participate in three hours of service through one or more service projects approved by your Scoutmaster. The project(s) must not be the same service project(s) used for Tenderfoot requirement 7b and Second Class requirement 8e. Explain how your service to others relates to the Scout Law.').save()
+        RankRequirement(sort_order=126, number='', is_header=True,
+                        header='Leadership:', rank=first_class, revision='2016').save()
+        RankRequirement(sort_order=127, number='10', revision='2016', rank=first_class,
+                        short_desc='Invite Friend',
+                        description='Tell someone who is eligible to join Boy Scouts, or an inactive Boy Scout, about your Scouting activities. Invite him to an outing, activity, service project, or meeting. Tell him how to join, or encourage the inactive Boy Scout to become active. Share your efforts with your Scoutmaster or other adult leader.').save()
+        RankRequirement(sort_order=128, number='', is_header=True,
+                        header='Scout Spirit:', rank=first_class, revision='2016').save()
+        RankRequirement(sort_order=129, number='11', revision='2016', rank=first_class,
+                        short_desc='Scout Oath/Law/God',
+                        description='Demonstrate Scout spirit by living the Scout Oath and Scout Law. Tell how you have done your duty to God and how you have lived four different points of the Scout Law (different from those points used for previous ranks) in your everyday life.').save()
+        RankRequirement(sort_order=130, number='12', revision='2016', rank=first_class,
+                        short_desc='Scoutmaster Conference',
+                        description='While working toward the First Class rank, and after completing Second Class requirement 11, participate in a Scoutmaster conference.').save()
+        RankRequirement(sort_order=131, number='13', revision='2016', rank=first_class,
+                        short_desc='Board of Review',
+                        description='Successfully complete your board of review for the First Class rank.').save()
+
+        print('Loading RankRequirement for Star')
 
     def handle(self, *args, **options):
         self._create_base_data()
