@@ -81,3 +81,32 @@ class RankRequirement(models.Model):
 
     def __str__(self):
         return "{} ({})".format(self.short_desc, self.rank)
+
+
+class ScoutRankSignoff(models.Model):
+    req_1a = models.DateField()
+    req_1b = models.DateField()
+    req_1c = models.DateField()
+    req_2a = models.DateField()
+    req_2b = models.DateField()
+    req_2c = models.DateField()
+    req_3a = models.DateField()
+    req_3b = models.DateField()
+    req_3c = models.DateField()
+    req_3d = models.DateField()
+    req_4a = models.DateField()
+    req_4b = models.DateField()
+    req_4c = models.DateField()
+    req_4d = models.DateField()
+    req_5a = models.DateField()
+    req_5b = models.DateField()
+    req_5c = models.DateField()
+    req_6a = models.DateField()
+    req_6b = models.DateField()
+    req_6c = models.DateField()
+    req_7a = models.DateField()
+    req_7b = models.DateField()
+    req_8 = models.DateField()
+    req_9 = models.DateField()
+    req_10 = models.DateField()
+    req_11 = models.DateField()
