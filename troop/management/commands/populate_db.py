@@ -636,7 +636,7 @@ class Command(BaseCommand):
                         header='Fitness:', rank=first_class, revision='2016').save()
         RankRequirement(sort_order=119, number='8a', revision='2016', rank=first_class,
                         short_desc='Physically Active',
-                        description='After completing Second Class requirement 7a, be physically active at least 30 minutes each day for five days a week for four weeks. Keep track of your activities.').save()
+                        description='After completing Second Class requirement 7a, be physiscally active at least 30 minutes each day for five days a week for four weeks. Keep track of your activities.').save()
         RankRequirement(sort_order=120, number='8b', revision='2016', rank=first_class,
                         short_desc='Physical Activity Goals',
                         description='Share your challenges and successes in completing First Class requirement 8a. Set a goal for continuing to include physical activity as part of your daily life.').save()
@@ -672,6 +672,100 @@ class Command(BaseCommand):
                         description='Successfully complete your board of review for the First Class rank.').save()
 
         print('Loading RankRequirement for Star')
+        RankRequirement(sort_order=132, number='1', revision='2016', rank=star,
+                        short_desc='Four Months Active',
+                        description='Be active in your troop for at least four months as a First Class Scout.').save()
+        RankRequirement(sort_order=133, number='2', revision='2016', rank=star,
+                        short_desc='Scout Oath/Law/God',
+                        description='As a First Class Scout, demonstrate Scout spirit by living the Scout Oath and Scout Law. Tell how you have done your duty to God and how you have lived the Scout Oath and Scout Law in your everyday life.').save()
+        RankRequirement(sort_order=134, number='3', revision='2016', rank=star,
+                        short_desc='Earn 6 Meritbadges',
+                        description='Earn six merit badges, including any four from the required list for Eagle. You may choose any of the 17 merit badges on the required list for Eagle to fulfill this requirement.').save()
+        RankRequirement(sort_order=135, number='4', revision='2016', rank=star,
+                        short_desc='Six Service Hours',
+                        description='While a First Class Scout, participate in six hours of service through one or more service projects approved by your Scoutmaster').save()
+        RankRequirement(sort_order=136, number='5', revision='2016', rank=star,
+                        short_desc='Position of Resp',
+                        description="""While a First Class Scout, serve actively in your troop for four months in one or more of the following positions of responsibility (or carry out a Scoutmaster approved leadership project to help the troop):
+                                Boy Scout troop. Patrol leader, assistant senior patrol leader, senior patrol leader, troop guide, Order of the Arrow troop representative, den chief, scribe, librarian, historian, quartermaster, bugler, junior assistant Scoutmaster, chaplain aide, instructor, webmaster, or outdoor ethics guide.[2]
+                                Venturing crew. President, vice president, secretary, treasurer, den chief, historian, guide, quartermaster, chaplain aide, or outdoor ethics guide.
+                                Sea Scout ship. Boatswain, boatswain’s mate, purser, yeoman, storekeeper, crew leader, media specialist, specialist, den chief, or chaplain aide.
+                                Lone Scout. Leadership responsibility in your school, religious organization, club, or elsewhere in your community.""").save()
+        RankRequirement(sort_order=137, number='6', revision='2016', rank=star,
+                        short_desc='Abuse/Cyberchip',
+                        description='With your parent or guardian, complete the exercises in the pamphlet How to Protect Your Children from Child Abuse: A Parent’s Guide and earn the Cyber Chip Award for your grade.').save()
+        RankRequirement(sort_order=138, number='7', revision='2016', rank=star,
+                        short_desc='Scoutmaster Conference',
+                        description='While a First Class Scout, participate in a Scoutmaster conference.').save()
+        RankRequirement(sort_order=139, number='8', revision='2016', rank=star,
+                        short_desc='Board of Review',
+                        description='Successfully complete your board of review for the Star rank.').save()
+
+        print('Loading RankRequirement for Life')
+        RankRequirement(sort_order=140, number='1', revision='2016', rank=life,
+                        short_desc='Six Months Active',
+                        description='Be active in your troop for at least six months as a Star Scout.').save()
+        RankRequirement(sort_order=141, number='2', revision='2016', rank=life,
+                        short_desc='Scout Oath/Law/God',
+                        description='As a Star Scout, demonstrate Scout spirit by living the Scout Oath and Scout Law. Tell how you have done your duty to God and how you have lived the Scout Oath and Scout Law in your everyday life.').save()
+        RankRequirement(sort_order=142, number='3', revision='2016', rank=life,
+                        short_desc='5 Meritbadges',
+                        description='Earn five more merit badges (so that you have 11 in all), including any three additional merit badges from the required list for Eagle. You may choose any of the 17 merit badges on the required list for Eagle to fulfill this requirement.').save()
+        RankRequirement(sort_order=143, number='4', revision='2016', rank=life,
+                        short_desc='3 Service/3 Cons. Hours',
+                        description='While a Star Scout, participate in six hours of service through one or more service projects approved by your Scoutmaster[1]. At least three hours of this service must be conservation-related.').save()
+        RankRequirement(sort_order=144, number='5', revision='2016', rank=life,
+                        short_desc='Position of Resp',
+                        description="""While a Star Scout, serve actively in your troop for six months in one or more of the following positions of responsibility (or carry out a Scoutmaster approved leadership project to help the troop):
+                            Boy Scout troop. Patrol leader, assistant senior patrol leader, senior patrol leader, troop guide, Order of the Arrow troop representative, den chief, scribe, librarian, historian, quartermaster, bugler, junior assistant Scoutmaster, chaplain aide, instructor, webmaster, or outdoor ethics guide.
+                            Venturing crew. President, vice president, secretary, treasurer, den chief, historian, guide, quartermaster, chaplain aide, or outdoor ethics guide.
+                            Sea Scout ship. Boatswain, boatswain’s mate, purser, yeoman, storekeeper, crew leader, media specialist, specialist, den chief, or chaplain aide.
+                            Lone Scout. Leadership responsibility in your school, religious organization, club, or elsewhere in your community.""").save()
+        RankRequirement(sort_order=145, number='6', revision='2016', rank=life,
+                        short_desc='EDGE Teaching',
+                        description="""While a Star Scout, use the Teaching EDGE method to teach another Scout (preferably younger than you) the skills from ONE of the following choices, so that he is prepared to pass those requirements to his Scoutmaster’s[1] satisfaction.
+                            a. Tenderfoot 4a and 4b (first aid)
+                            b. Second Class 2b, 2c, and 2d (cooking/tools)
+                            c. Second Class 3a and 3d (navigation)
+                            d. First Class 3a, 3b, 3c, and 3d (tools)
+                            e. First Class 4a and 4b (navigation)
+                            f. Second Class 6a and 6b (first aid)
+                            g. First Class 7a and 7b (first aid)
+                            h. Three requirements from one of the required Eagle merit badges, as approved by your Scoutmaster[1]""").save()
+        RankRequirement(sort_order=146, number='7', revision='2016', rank=star,
+                        short_desc='Scoutmaster Conference',
+                        description='While a Star Scout, participate in a Scoutmaster conference.').save()
+        RankRequirement(sort_order=147, number='8', revision='2016', rank=star,
+                        short_desc='Board of Review',
+                        description='Successfully complete your board of review for the Life rank.').save()
+
+        print('Loading RankRequirement for Eagle')
+        RankRequirement(sort_order=148, number='1', revision='2016', rank=eagle,
+                        short_desc='Six Months Active',
+                        description='Be active in your troop for at least six months as a Life Scout.').save()
+        RankRequirement(sort_order=149, number='2', revision='2016', rank=eagle,
+                        short_desc='Scout Spirt/Oath/God',
+                        description='As a Life Scout, demonstrate Scout spirit by living the Scout Oath and Scout Law. Tell how you have done your duty to God and how you have lived the Scout Oath and Scout Law in your everyday life, and how your understanding of the Scout Oath and Scout Law will guide your life in the future. List on your Eagle Scout Rank Application the names of individuals who know you personally and would be willing to provide a recommendation on your behalf, including parents/guardians, religious (if not affiliated with an organized religion, then the parent or guardian provides this reference), educational, employer (if employed), and two other references.').save()
+        RankRequirement(sort_order=150, number='3', revision='2016', rank=eagle,
+                        short_desc='21 Merit Badges',
+                        description="""Earn a total of 21 merit badges (10 more than required for the Life rank), including these 13 merit badges: (a) First Aid, (b) Citizenship in the Community, (c) Citizenship in the Nation, (d) Citizenship in the World, (e) Communication, (f) Cooking, (g) Personal Fitness, (h) Emergency Preparedness OR Lifesaving, (i) Environmental Science OR Sustainability, (j) Personal Management, (k) Swimming OR Hiking OR Cycling, (l) Camping, and (m) Family Life.
+                            You must choose only one of the merit badges listed in categories h, i, and k. Any additional merit badge(s) earned in those categories may be counted as one of your eight optional merit badges used to make your total of 21.""").save()
+        RankRequirement(sort_order=151, number='4', revision='2016', rank=eagle,
+                        short_desc='Leadership Position',
+                        description="""While a Life Scout, serve actively in your troop for six months in one or more of the following positions of responsibility:
+                            Boy Scout troop. Patrol leader, assistant senior patrol leader, senior patrol leader, troop guide, Order of the Arrow troop representative, den chief, scribe, librarian, historian, quartermaster, junior assistant Scoutmaster, chaplain aide, instructor, webmaster, or outdoor ethics guide.[3]
+                            Venturing crew. President, vice president, secretary, treasurer, den chief, historian, guide, quartermaster, chaplain aide, or outdoor ethics guide.
+                            Sea Scout ship. Boatswain, boatswain’s mate, purser, yeoman, storekeeper, crew leader, media specialist, specialist, den chief, or chaplain aide.
+                            Lone Scout. Leadership responsibility in your school, religious organization, club, or elsewhere in your community.""").save()
+        RankRequirement(sort_order=152, number='5', revision='2016', rank=eagle,
+                        short_desc='Eagle Project',
+                        description='While a Life Scout, plan, develop, and give leadership to others in a service project helpful to any religious institution, any school, or your community. (The project must benefit an organization other than Boy Scouting.) A project proposal must be approved by the organization benefiting from the effort, your unit leader and unit committee, and the council or district before you start. You must use the Eagle Scout Service Project Workbook, BSA publication No. 512-927, in meeting this requirement. (To learn more about the Eagle Scout service project, see the Guide to Advancement, topics 9.0.2.0 through 9.0.2.16.)').save()
+        RankRequirement(sort_order=153, number='6', revision='2016', rank=eagle,
+                        short_desc='Scoutmaster Conference',
+                        description='While a Life Scout, participate in a Scoutmaster conference.').save()
+        RankRequirement(sort_order=154, number='7', revision='2016', rank=eagle,
+                        short_desc='Board of Review',
+                        description='Successfully complete your board of review for the Eagle rank.[4] In preparation for your board of review, prepare and attach to your Eagle Scout Rank Application a statement of your ambitions and life purpose and a listing of positions held in your religious institution, school, camp, community, or other organizations, during which you demonstrated leadership skills. Include honors and awards received during this service. (This requirement may be met after age 18, in accordance with Guide to Advancement topic 8.0.3.1.}').save()
 
     def handle(self, *args, **options):
         self._create_base_data()
